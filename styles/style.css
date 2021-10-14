@@ -75,3 +75,10 @@ p {
     height: 45px;
     font-family: 'Gideon Roman', cursive;
 }
+
+#vanessa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
