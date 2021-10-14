@@ -9,3 +9,7 @@ h4 {
     font-size: smaller;
     color: gray;
 }
+#table-section {
+    background-image: url(../assets/list-bg.png);
+    /* background-position: ; */
+}
