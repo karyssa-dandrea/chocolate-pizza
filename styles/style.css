@@ -14,11 +14,16 @@ h4 {
 #table-section {
     background-image: url(../assets/list-bg.png);
     /* background-position: ; */
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#choc-pizza {
-
+table {
+    text-indent: 50px;
 }
+
+/* #choc-pizza {
+
+} */
 
 hr {
     height: 10px;
@@ -46,4 +51,15 @@ header {
 
 #logo {
     height: 45px;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    font-size: smaller;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
 }
