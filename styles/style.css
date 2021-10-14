@@ -15,6 +15,7 @@ h4 {
     background-image: url(../assets/list-bg.png);
     /* background-position: ; */
     font-family: 'Open Sans Condensed', sans-serif;
+    max-width: 800px;
     
 }
 
@@ -65,4 +66,11 @@ p {
 
 #egg-yolks {
     text-decoration: line-through;
+}
+
+#share {
+    background-color: #b9806a;
+    color: white;
+    height: 45px;
+    font-family: 'Gideon Roman', cursive;
 }
