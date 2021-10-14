@@ -1,4 +1,6 @@
-
+body {
+    align-items: center;
+}
 h2 {
     font-family: 'Yellowtail', cursive;
     font-weight: bold;
@@ -57,7 +59,6 @@ footer {
 
 p {
     font-family: sans-serif;
-    text-align: ;
 }
 
 #granulated-sugar {
