@@ -1,13 +1,15 @@
 
-h1 {
+h2 {
     font-family: 'Yellowtail', cursive;
     font-weight: bold;
     font-size: 2.5rem;
+    margin: 0;
 }
 h4 {
     font-family: 'Gideon Roman', cursive;
     font-size: smaller;
     color: gray;
+    margin: 0;
 }
 #table-section {
     background-image: url(../assets/list-bg.png);
@@ -15,5 +17,33 @@ h4 {
 }
 
 #choc-pizza {
-    
+
+}
+
+hr {
+    height: 10px;
+    background-image: url(../assets/hr-img.png);
+    border: 0;
+}
+
+#title {
+    display:flex;
+    flex-direction: column;
+}
+
+#header-left {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 45px;
 }
