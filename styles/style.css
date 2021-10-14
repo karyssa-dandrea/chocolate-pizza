@@ -15,15 +15,12 @@ h4 {
     background-image: url(../assets/list-bg.png);
     /* background-position: ; */
     font-family: 'Open Sans Condensed', sans-serif;
+    
 }
 
 table {
     text-indent: 50px;
 }
-
-/* #choc-pizza {
-
-} */
 
 hr {
     height: 10px;
@@ -39,8 +36,6 @@ hr {
 #header-left {
     display: flex;
     flex-direction: row;
-
-
 }
 
 header {
@@ -62,4 +57,12 @@ footer {
 p {
     font-family: sans-serif;
     text-align: ;
+}
+
+#granulated-sugar {
+    text-decoration: line-through;
+}
+
+#egg-yolks {
+    text-decoration: line-through;
 }
