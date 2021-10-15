@@ -1,4 +1,6 @@
-
+body {
+    align-items: center;
+}
 h2 {
     font-family: 'Yellowtail', cursive;
     font-weight: bold;
@@ -7,17 +9,21 @@ h2 {
 }
 h4 {
     font-family: 'Gideon Roman', cursive;
-    font-size: smaller;
+    font-size: 20%;
     color: gray;
     margin: 0;
+    margin-top: -5px;
 }
 #table-section {
     background-image: url(../assets/list-bg.png);
     /* background-position: ; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    max-width: 800px;
+    
 }
 
-#choc-pizza {
-
+table {
+    text-indent: 50px;
 }
 
 hr {
@@ -34,8 +40,6 @@ hr {
 #header-left {
     display: flex;
     flex-direction: row;
-
-
 }
 
 header {
@@ -46,4 +50,60 @@ header {
 
 #logo {
     height: 45px;
+    margin-top: 15px;
+
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    font-size: smaller;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#granulated-sugar {
+    text-decoration: line-through;
+}
+
+#egg-yolks {
+    text-decoration: line-through;
+}
+
+#share {
+    background-color: #b9806a;
+    color: white;
+    height: 45px;
+    font-family: 'Gideon Roman', cursive;
+}
+
+#vanessa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#choc-pizza {
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    color: gray;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#print {
+    text-align: right;
+    font-size: smaller;
+    color: gray;
+}
+
+#regular-line {
+    background-image: initial;
 }
