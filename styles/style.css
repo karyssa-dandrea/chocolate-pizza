@@ -103,3 +103,7 @@ h6 {
     font-size: smaller;
     color: gray;
 }
+
+#regular-line {
+    background-image: initial;
+}
